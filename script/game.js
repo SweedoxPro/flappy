@@ -337,7 +337,6 @@ pipes = {
                     b.right > p.left &&
                     b.top < p.top.bottom &&
                     b.bottom > p.top.top) {
-                    gameState.current = gameState.gameOver
                     SFX_COLLISION.play()
                 }
                 //collision with bottom pipe
@@ -345,7 +344,6 @@ pipes = {
                     b.right > p.left &&
                     b.top < p.bot.bottom &&
                     b.bottom > p.bot.top) {
-                    gameState.current = gameState.gameOver
                     SFX_COLLISION.play()
                 }
             }
