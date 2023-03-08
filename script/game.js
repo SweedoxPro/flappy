@@ -194,7 +194,7 @@ gameState = {
     //on play game state: bird flaps and flies
     play: 1,
     //game over screen: button||click takes player to ready screen
-    gameOver: 2,
+    gameOver: 3,
     won: 3
 }
 //background
